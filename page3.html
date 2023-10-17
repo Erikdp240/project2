@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Sample Sign Up Page</title>
+    </head>
+  <body>
+    <h4>Links to pages:</h4>
+    <nav>
+      <ul>
+        <li><a href="index.html">Resume</a></li>
+        <li><a href="page2.html">Fun Facts</a></li>
+        <li><a href="page3.html">Sample Sign Up</a></li>
+      </ul>
+    </nav>
+    <h1>Sample Sign Up Page</h1>
+    <img src="images/cream_resize.jpeg" alt="two containers and one squeeze bottle of cream">
+    <div class="information">
+      <form>
+        <p><strong>First Name</strong></p>
+        <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
+        <p><strong>Last Name</strong></p>
+        <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required>
+        <p><strong>Email</strong></p>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        <p><strong>Phone</strong></p>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+        <p><strong>Age</strong></p>
+        <input type="radio" id="age1" name="age" value="30">
+        <label for="age1">0-30</label>
+        <p></p>
+        <input type="radio" id="age2" name="age" value="60">
+        <label for="age2">31 - 60</label>
+        <p></p>
+        <input type="radio" id="age3" name="age" value="100">
+        <label for="age3">61 and older</label>
+      </form>
+    </div>
+    <div class="textarea">
+      <form>
+        <p></p>
+        <label for="box">Tell us how you heard about our products:</label>
+        <p></p>
+        <textarea id="box" name="box" rows="4" cols="50" placeholder="Enter text here..."></textarea>
+        </form>
+        </div>
+        <div class="end">
+        <form action="index.html" method="get">
+        <p></p>
+        <input type="checkbox" id="agree" name="agree" value="yes">
+        <label for="agree"> I've read and agreed to the terms of use, privacy notice, and offer details</label>
+        <p></p>
+        <input type="checkbox" id="decline" name="decline" value="no">
+        <label for="agree"> Please don't send me marketing communcations</label>
+        <p></p>
+        <p><strong>Pressing submit would return you back to first page.</strong></p>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+
+  </html>
