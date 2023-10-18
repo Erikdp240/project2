@@ -1,3 +1,38 @@
+.container {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+#youtube {
+  width: 350px;
+  float: left;
+  padding: 20px;
+}
+
+#youtube iframe {
+  width: 360px;
+  height: 200px;
+}
+
+#youtube h4 {
+  text-align: center;
+}
+
+#youtube img {
+  padding-left: 80px;
+}
+
+#activities {
+  margin-left: 190px;
+  width: 350px;
+  float: left;
+  padding: 20px;
+}
+
+#activities h4 {
+  text-align: center;
+}
+
 body {
   background-image: url("../images/cream-background.avif");
   background-size: cover;
@@ -8,35 +43,4 @@ body {
 h1 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.container {
-  width: 1000px;
-  margin: 0 auto 0 auto;
-  
-}
-
-#youtube {
-  width: 350px;
-  float: left;
-  padding: 20px;
-}
-
-#activities {
-  margin-left: 190px;
-  width: 350px;
-  float: left;
-  padding: 20px;
-}
-
-#youtube h4 {
-  text-align: center;
-}
-
-#activities h4 {
-  text-align: center;
-}
-
-#youtube img {
-  padding-left: 80px;
 }
