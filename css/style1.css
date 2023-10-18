@@ -1,31 +1,33 @@
-h2 {
+.container {
+  width: 40rem;
+  margin: auto;
+  padding-top: 0px;
+}
+
+.container h1 {
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
-h4 {
-  margin-top: 0;
-  margin-bottom: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
+.container section {
+  width: 40rem;
+  height: 100%;
+  margin: auto;
+  padding-top: 30px;
+  background-color: white;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-ul {
+.container ul {
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-ul li {
+.container ul li {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.erik {
+  line-height: 0;
 }
 
 .erik img {
@@ -33,8 +35,15 @@ ul li {
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
-.erik {
-  line-height: 0;
+#student {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#first {
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 body {
@@ -44,31 +53,22 @@ body {
   background-attachment: fixed;
 }
 
-div {
-  width: 40rem;
-  margin: auto;
-  padding-top: 0px;
+h4 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-#work div {
-  width: 40rem;
-  height: 100%;
-  margin: auto;
-  padding-top: 30px;
-  background-color: white;
-}
-
-#info {
+h2 {
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-#space {
-  margin-top: auto;
-  margin-bottom: 10px;
-}
-
-#student {
-  text-align: center;
-  padding-top: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+p {
+  margin-top: 0;
+  margin-bottom: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
