@@ -5,17 +5,23 @@
       <meta charset="utf-8">
       <title>Sample Sign Up Page</title>
       <link rel="stylesheet" href="css/nav_style.css">
+      <link rel="stylesheet" href="css/style3.css">
     </head>
   <body>
     <nav id="main-navbar">
       <ul>
         <li><a href="index.html">Resume</a></li>
         <li><a href="page2.html">Fun Facts</a></li>
-        <li><a href="page3.html">Sample Sign Up</a></li>
+        <li><a href="page3.html">Sign Up</a></li>
       </ul>
     </nav>
+    <div id="header">
     <h1>Sample Sign Up Page</h1>
-    <img src="images/cream_resize.jpeg" alt="two containers and one squeeze bottle of cream">
+    <aside class="cream">
+      <img src="images/cream_resize.jpeg" alt="two containers and one squeeze bottle of cream">
+    </aside>
+    </div>
+    <div class="container">
     <div id="information">
       <form>
         <p><strong>First Name</strong></p>
@@ -37,7 +43,7 @@
         <label for="age3">61 and older</label>
       </form>
     </div>
-    <div id="textarea">
+    <div id="textbox">
       <form>
         <p></p>
         <label for="box">Tell us how you heard about our products:</label>
@@ -54,9 +60,10 @@
         <input type="checkbox" id="decline" name="decline" value="no">
         <label for="agree"> Please don't send me marketing communcations</label>
         <p></p>
-        <p><strong>Pressing submit would return you back to first page.</strong></p>
+        <p id="sub"><strong>Pressing submit would return you back to first page.</strong></p>
         <input type="submit" value="Submit">
       </form>
+    </div>
     </div>
   </body>
 
