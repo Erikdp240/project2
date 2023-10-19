@@ -29,10 +29,16 @@ h1 {
 }
 
 #youtube iframe {
+  border: 0;
   margin-top: 10px;
-  margin-left: 150px;
-  border: 1px;
   margin-bottom: 20px;
+  margin-right: 25px;
+  height: 300px;
+  width: 500px;
+}
+
+#video {
+  text-align: center;
 }
 
 #activities {
@@ -89,7 +95,11 @@ h1 {
   color: white;
   display: inline-block;
   vertical-align: top;
-  margin-right: 53px;
+  margin-right: 50px;
   padding-bottom: 20px;
+  text-align: center;
+}
+
+#actions {
   text-align: center;
 }
