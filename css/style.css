@@ -4,7 +4,7 @@
   padding-top: 0px;
 }
 
-.container1 h1, .container2 h1 {
+h1 {
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ body {
   background-attachment: fixed;
 }
 
-h1 {
+.container1 h1, .container2 {
   text-align: center;
 }
 
